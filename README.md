@@ -1,5 +1,5 @@
-# ArchivosVarios
-Acá estarán los códigos con los que estaré trabajando en Programación web
+# Proyecto aún sin nombre
+Acá estarán los códigos con los que estaremos trabajando en Programación web.
 
 ## Integrantes
 - De la Paz Bautista Areli Esmeralda 19230318
