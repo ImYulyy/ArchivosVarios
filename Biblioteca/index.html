@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+ 
+  <div id="container">
+    <nav>
+      <form class="input-group">
+          <input type="text" placeholder="Search">
+          <i class="fas fa-search"></i>
+      </form>
+      <a href="" class="brand">Biblioteca</a>
+      <div class="toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <input type="checkbox" id="navToggle" />
+      </div>
+  </nav>
+  <aside>
+      <a href=""><i class="fas fa-home"></i>Home</a>
+      <a href=""><i class="fa-solid fa-people-group"></i>About</a>
+      <a href=""><i class="fa-solid fa-address-book"></i>Contact</a>
+      <a href=""><i class="fa-solid fa-search"></i>Search</a>
+      <a href=""><i class="fa-solid fa-user"></i>User</a>
+  </aside> 
+  </div>
+  
+  <div>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    
+    <div>
+      
+    </div>
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide>Slide 4</swiper-slide>
+    <swiper-slide>Slide 5</swiper-slide>
+    <swiper-slide>Slide 6</swiper-slide>
+    <swiper-slide>Slide 7</swiper-slide>
+    <swiper-slide>Slide 8</swiper-slide>
+    <swiper-slide>Slide 9</swiper-slide>
+  </swiper-container>
+  </div>
+
+    <div class="container">
+      
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+      
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+      
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+      
+              <g id="SVGRepo_iconCarrier">
+      
+              <img height="380px" src="https://m.media-amazon.com/images/I/91n1850EZaL.jpg" alt="">
+      
+              </g>
+      
+              </svg>
+              
+            </div>
+          </div>
+          <div class="front">
+            
+            <div class="img">
+              <div class="circle">
+              </div>
+              <div class="circle" id="right">
+              </div>
+              <div class="circle" id="bottom">
+              </div>
+            </div>
+      
+            <div class="front-content">
+              <small class="badge">
+                <div id="cabezero"></div>
+              </small>
+              <div class="description">
+                <div class="title">
+                  <div id="contenido">
+                    <p>Título: "Don Quijote de la Mancha".</p>
+                        <p>Autor: "Don Quijote de la Mancha" es Miguel de Cervantes, un escritor español nacido en 1547.</p>
+                        <p>Editorial: La primera edición del libro fue publicada por Juan de la Cuesta en Madrid en 1605.</p>
+                        <p>Fecha de publicación: El libro se publicó en dos partes: la primera parte en 1605 y la segunda parte en 1615.</p>                                      
+                  </div>
+                </div>
+                <div>
+                  <p id="pie" class="card-footer"></p>
+                  <button class="cssbuttons-io-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
+                  </button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#009087" fill-opacity="1" d="M0,256L48,240C96,224,192,192,288,192C384,192,480,224,576,218.7C672,213,768,171,864,149.3C960,128,1056,128,1152,112C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+    
+    
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+</body>
+</html>
